@@ -26,6 +26,6 @@ class{
 	}
 
 	function anotherLambda( event, context, response ){
-		return "Hola!!"
+		return "Bonjour!!"
 	}
 }
