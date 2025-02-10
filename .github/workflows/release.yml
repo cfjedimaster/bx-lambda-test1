@@ -126,7 +126,7 @@ jobs:
         uses: kazimanzurrashid/aws-lambda-update-action@v2.0.3
         with:
           zip-file: "./build/distributions/${{ env.PROJECT_NAME }}-${{ env.VERSION }}.zip"
-          lambda-name: ${{ env.PROJECT_NAME }}
+          lambda-name: ${{ env.PROJECT_NAME }}-${{ env.DEPLOY_TIER }}
         env:
           AWS_REGION: "us-west-2"
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_PUBLISHER_KEY_ID }}
