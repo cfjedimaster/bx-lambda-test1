@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0] - 2025-02-10
 
 [Unreleased]: https://github.com/cfjedimaster/bx-lambda-test1/compare/v1.0.0...HEAD
 
